@@ -16,7 +16,6 @@ type IData struct {
 }
 
 type IPlugin struct {
-	Name        string
 	Description string
 	Data        IData
 	Main        func(IData)
@@ -43,8 +42,7 @@ func ParseData() IData {
 	return res
 }
 
-func Setup(name string, description string, pmain func(IData), pcommand func(IData, []string), pshutdown func(IData)) {
-	Plugin.Name = name
+func Setup(description string, pmain func(IData), pcommand func(IData, []string), pshutdown func(IData)) {
 	Plugin.Description = description
 	Plugin.Data = ParseData()
 	Plugin.Main = pmain
