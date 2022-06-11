@@ -21,6 +21,11 @@ func pcommand(data gilc.IData, args []string) {
 	fmt.Println("My plugin was called")
 	fmt.Println("Args: ", args)
 	fmt.Println("SavePath: ", data.SavePath)
+    ans, err := gilc.ReadLine("Your favourite fruit")
+    if err != nil {
+        return
+    }
+    gilc.WriteLine("Your favourite fruit is §4" + ans + "§r.");
 }
 
 func pshutdown(data gilc.IData) {
