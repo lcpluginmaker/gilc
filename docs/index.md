@@ -61,19 +61,19 @@ func YesNoDialog(prompt string, acceptEnter bool) (bool, error) { }
 Yes-No dialog with custom prompt.
 
 ```go
-func ReadLine(prompt string) (string, error) {
+func ReadLine(prompt string) (string, error) { }
 ```
 
 Input prompt.
 
 ```go
-func Write(msg string) {
+func Write(msg string) { }
 ```
 
 Writes text parsing it according to teh LeoConsole standard (`§n`).
 
 ```go
-func WriteLine(msg string) {
+func WriteLine(msg string) { }
 ```
 
 Same as `Write(msg)`, but adds a newline at the end.
