@@ -11,11 +11,10 @@ import (
 )
 
 type IData struct {
-	Username           string `json:"Username"`
-	SavePath           string `json:"SavePath"`
-	DownloadPath       string `json:"DownloadPath"`
-	CurrentWorkingPath string `json:"CurrentWorkingPath"`
-	Version            string `json:"Version"`
+	Username     string `json:"Username"`
+	SavePath     string `json:"SavePath"`
+	DownloadPath string `json:"DownloadPath"`
+	Version      string `json:"Version"`
 }
 
 type IPlugin struct {
@@ -29,7 +28,7 @@ type IPlugin struct {
 
 var Plugin IPlugin = IPlugin{}
 
-func ParseData() IData {
+func parseData() IData {
 	if len(os.Args) <= 2 {
 		fmt.Println("something went wrong, no arguments passed")
 		os.Exit(1)
@@ -54,7 +53,7 @@ func Setup(description string, pmain func(IData), pcommand func(IData, []string)
 	}
 	_, Plugin.Name = path.Split(p)
 	Plugin.Description = description
-	Plugin.Data = ParseData()
+	Plugin.Data = parseData()
 	Plugin.Main = pmain
 	Plugin.Command = pcommand
 	Plugin.Shutdown = pshutdown

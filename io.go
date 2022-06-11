@@ -41,7 +41,7 @@ func Write(msg string) {
 	out := colorable.NewColorableStdout()
 	for i := 0; i < len(msg); i++ {
 		if msg[i] != '§' {
-			fmt.Print(msg[i])
+			fmt.Print(string(msg[i]))
 		}
 		switch msg[i+1] {
 		case '0', '8':
