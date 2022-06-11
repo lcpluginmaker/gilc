@@ -5,6 +5,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"path"
+
+	"github.com/alexcoder04/arrowprint"
 )
 
 type IData struct {
@@ -16,6 +19,7 @@ type IData struct {
 }
 
 type IPlugin struct {
+	Name        string
 	Description string
 	Data        IData
 	Main        func(IData)
@@ -43,6 +47,12 @@ func ParseData() IData {
 }
 
 func Setup(description string, pmain func(IData), pcommand func(IData, []string), pshutdown func(IData)) {
+	p, err := os.Executable()
+	if err != nil {
+		arrowprint.Err0("cannot get executable path")
+		os.Exit(1)
+	}
+	_, Plugin.Name = path.Split(p)
 	Plugin.Description = description
 	Plugin.Data = ParseData()
 	Plugin.Main = pmain
@@ -52,6 +62,8 @@ func Setup(description string, pmain func(IData), pcommand func(IData, []string)
 
 func Run() {
 	switch os.Args[1] {
+	case "init":
+		fmt.Printf(`{"Desription": "%s"}`+"\n", Plugin.Description)
 	case "main":
 		Plugin.Main(Plugin.Data)
 		break
@@ -59,7 +71,7 @@ func Run() {
 		Plugin.Shutdown(Plugin.Data)
 		break
 	default:
-		Plugin.Command(Plugin.Data, os.Args[2:])
+		Plugin.Command(Plugin.Data, os.Args[3:])
 		break
 	}
 }
