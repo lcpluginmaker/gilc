@@ -5,3 +5,11 @@
 
 Let's make Go a first-class language for LeoConsole plugins!
 
+## Docs
+
+https://alexcoder04.github.io/gilc
+
+## Advantages and Disadvantages
+
+https://alexcoder04.github.io/gilc/why.html
+
