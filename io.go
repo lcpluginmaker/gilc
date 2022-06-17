@@ -16,7 +16,7 @@ func YesNoDialog(prompt string, acceptEnter bool) (bool, error) {
 		if err != nil {
 			return false, err
 		}
-		switch strings.ToLower(answer) {
+		switch strings.TrimSpace(strings.ToLower(answer)) {
 		case "y", "yes":
 			return true, nil
 		case "n", "no":

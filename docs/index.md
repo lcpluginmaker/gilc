@@ -1,6 +1,8 @@
 
 # gilc - GoILeoConsole
 
+[Why use gilc?](./why.html)
+
 ## Example plugin using gilc
 
 ```go
