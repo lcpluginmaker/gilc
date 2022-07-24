@@ -5,10 +5,10 @@ Why even bother using this instead of default LeoConsole plugin API?
 
 ## Advantages
 
- - you like Go more that C#
- - you don't want to use Microsoft software like dotnet (doesn't make any sense,
-   LeoConsole still uses dotnet `-_-`)
- - less boilerplate code (see [gilc example](./index.html) and
+ - more languages for LC plugins, maybe you like Go more that C#
+ - not required to install Microsoft software for development, especially
+   important if you use Linux 🙃
+ - less boilerplate code (compare [gilc example](./index.html) and
    [LC plugin template](https://github.com/alexcoder04/LeoConsole-PluginTemplate))
  - it is possible that additional library functions will be implemented that are
    not available in default ILeoConsole, which will simplify your development
@@ -21,5 +21,7 @@ Why even bother using this instead of default LeoConsole plugin API?
    `PluginShutdown` and the command call itself), which has to parse the data
    etc. If you have a lot of Go plugins installed, it can take a little longer
    at start, because all of them have to run `PluginMain`
- - some ILeoConsole functions may be not implemented
+ - some ILeoConsole functions are not available (e. g. message formatting,
+   however alternatives like [arrowprint](https://github.com/alexcoder04/arrowprint)
+   exist)
 

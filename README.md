@@ -13,3 +13,10 @@ https://alexcoder04.github.io/gilc
 
 https://alexcoder04.github.io/gilc/why.html
 
+## More recommended libraries
+
+Other libraries that might be useful for plugin development:
+
+ - [alexcoder04/arrowprint](https://github.com/alexcoder04/arrowprint) - uniform message formatting in LeoConsole (same as in C# ILeoConsole and apkg)
+ - [alexcoder04/friendly](https://github.com/alexcoder04/friendly) - more nice functions to use
+

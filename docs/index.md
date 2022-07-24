@@ -80,3 +80,10 @@ func WriteLine(msg string) { }
 
 Same as `Write(msg)`, but adds a newline at the end.
 
+## More recommended libraries
+
+Other libraries that might be useful for plugin development:
+
+ - [alexcoder04/arrowprint](https://github.com/alexcoder04/arrowprint) - uniform message formatting in LeoConsole (same as in C# ILeoConsole and apkg)
+ - [alexcoder04/friendly](https://github.com/alexcoder04/friendly) - more nice functions to use
+
