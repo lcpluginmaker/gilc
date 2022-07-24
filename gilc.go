@@ -62,7 +62,7 @@ func Setup(description string, pmain func(IData), pcommand func(IData, []string)
 func Run() {
 	switch os.Args[1] {
 	case "init":
-		fmt.Printf(`{"Desription": "%s"}`+"\n", Plugin.Description)
+		fmt.Printf(`{"Description": "%s"}`+"\n", Plugin.Description)
 	case "main":
 		Plugin.Main(Plugin.Data)
 		break
