@@ -70,15 +70,19 @@ Input prompt.
 
 ```go
 func Write(msg string) { }
+func WriteLine(msg string) { }
 ```
 
 Writes text parsing it according to teh LeoConsole standard (`§n`).
 
+### Config API
+
 ```go
-func WriteLine(msg string) { }
+func ConfigGet(key string) { }
+func ConfigSet(key string, value string) { }
 ```
 
-Same as `Write(msg)`, but adds a newline at the end.
+Get and set config values. The config is stored in JSON at `var/<plugin-name>/config.json`
 
 ## More recommended libraries
 
