@@ -7,11 +7,11 @@ Let's make Go a first-class language for LeoConsole plugins!
 
 ## Docs
 
-https://alexcoder04.github.io/gilc
+https://lcpluginmaker.github.io/gilc
 
 ## Advantages and Disadvantages
 
-https://alexcoder04.github.io/gilc/why.html
+https://lcpluginmaker.github.io/gilc/why.html
 
 ## More recommended libraries
 

@@ -11,7 +11,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/alexcoder04/gilc"
+	"github.com/lcpluginmaker/gilc"
 )
 
 func pmain(data gilc.IData) {

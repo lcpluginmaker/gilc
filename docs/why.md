@@ -9,7 +9,7 @@ Why even bother using this instead of default LeoConsole plugin API?
  - not required to install Microsoft software for development, especially
    important if you use Linux 🙃
  - less boilerplate code (compare [gilc example](./index.html) and
-   [LC plugin template](https://github.com/alexcoder04/LeoConsole-PluginTemplate))
+   [LC plugin template](https://github.com/lcpluginmaker/PluginTemplate))
  - it is possible that additional library functions will be implemented that are
    not available in default ILeoConsole, which will simplify your development
 
