@@ -47,31 +47,22 @@ func Write(msg string) {
 			switch c {
 			case '0', '8':
 				fmt.Fprint(out, "\033[30m")
-				break
 			case '1', '9':
 				fmt.Fprint(out, "\033[34")
-				break
 			case '2', 'a':
 				fmt.Fprintf(out, "\033[32m")
-				break
 			case '3', 'b':
 				fmt.Fprintf(out, "\033[36m")
-				break
 			case '4', 'c':
 				fmt.Fprintf(out, "\033[31m")
-				break
 			case '5', 'd':
 				fmt.Fprintf(out, "\033[35m")
-				break
 			case '6', 'e':
 				fmt.Fprintf(out, "\033[33m")
-				break
 			case '7', 'f':
 				fmt.Fprintf(out, "\033[37m")
-				break
 			case 'r':
 				fmt.Fprint(out, "\033[0m")
-				break
 			default:
 				break
 			}

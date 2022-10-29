@@ -65,12 +65,9 @@ func Run() {
 		fmt.Printf(`{"Description": "%s"}`+"\n", Plugin.Description)
 	case "main":
 		Plugin.Main(Plugin.Data)
-		break
 	case "shutdown":
 		Plugin.Shutdown(Plugin.Data)
-		break
 	default:
 		Plugin.Command(Plugin.Data, os.Args[3:])
-		break
 	}
 }

@@ -1,7 +1,7 @@
 github.com/alexcoder04/arrowprint v0.0.1 h1:JOGDAmow9n1lZJkHFt3qP7vfqKZpmaeifPd9J+eHRac=
 github.com/alexcoder04/arrowprint v0.0.1/go.mod h1:vscFtiqe8wW9Bd3Gwl5u224YiBUWGL+x2prgtaoDB/U=
-github.com/alexcoder04/friendly v0.0.0-20220724153717-2c05924b8c1c h1:NqI7gPORzOwG/dfv4y/nDi0pZ53XQ2kuTeZpi12LvMs=
-github.com/alexcoder04/friendly v0.0.0-20220724153717-2c05924b8c1c/go.mod h1:mHI5Rm6HB+Jjd69RYJ9/9c7J1qCtfyBvoJPSIm0yslo=
+github.com/alexcoder04/friendly/v2 v2.0.0 h1:IHSCsqGmfEciPqEM0+xaPKpQ0NAO9GGTKe+GLLkP+Eo=
+github.com/alexcoder04/friendly/v2 v2.0.0/go.mod h1:mDdl0T9duMHVIVVTDgkXO7TE3rmjR6OO9PMdvEoqIH4=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
 github.com/mattn/go-colorable v0.1.13/go.mod h1:7S9/ev0klgBDR4GtXTXX8a3vIGJpMovkB8vQcUbaXHg=
 github.com/mattn/go-isatty v0.0.16 h1:bq3VjFmv/sOjHtdEhmkEV4x1AJtvUvOJ2PFAZ5+peKQ=

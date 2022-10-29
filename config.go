@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/alexcoder04/friendly"
+	"github.com/alexcoder04/friendly/v2/ffiles"
 )
 
 // utils {{{
@@ -16,7 +16,7 @@ func getConfigFile() string {
 
 func createConfigFolder() error {
 	configFolder := path.Dir(getConfigFile())
-	if !friendly.IsDir(configFolder) {
+	if !ffiles.IsDir(configFolder) {
 		return os.MkdirAll(configFolder, 0700)
 	}
 	return nil
@@ -24,7 +24,7 @@ func createConfigFolder() error {
 
 func readConfig() (map[string]string, error) {
 	configFile := getConfigFile()
-	if !friendly.IsFile(configFile) {
+	if !ffiles.IsFile(configFile) {
 		return map[string]string{}, nil
 	}
 
