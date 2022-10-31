@@ -1,5 +1,5 @@
-github.com/alexcoder04/arrowprint v0.0.1 h1:JOGDAmow9n1lZJkHFt3qP7vfqKZpmaeifPd9J+eHRac=
-github.com/alexcoder04/arrowprint v0.0.1/go.mod h1:vscFtiqe8wW9Bd3Gwl5u224YiBUWGL+x2prgtaoDB/U=
+github.com/alexcoder04/arrowprint v1.0.0 h1:NsB2NoM2a/1pGm0HoUp9HRQa/obrPNiiWYNzQ+6gAPk=
+github.com/alexcoder04/arrowprint v1.0.0/go.mod h1:hsC74dgZvbyuWO3oRkaBZCOh0iO/exMUrxmYISHD33Q=
 github.com/alexcoder04/friendly/v2 v2.0.0 h1:IHSCsqGmfEciPqEM0+xaPKpQ0NAO9GGTKe+GLLkP+Eo=
 github.com/alexcoder04/friendly/v2 v2.0.0/go.mod h1:mDdl0T9duMHVIVVTDgkXO7TE3rmjR6OO9PMdvEoqIH4=
 github.com/mattn/go-colorable v0.1.13 h1:fFA4WZxdEF4tXPZVKMLwD8oUnCTTo08duU7wxecdEvA=
@@ -13,5 +13,6 @@ github.com/otiai10/curr v1.0.0/go.mod h1:LskTG5wDwr8Rs+nNQ+1LlxRjAtTZZjtJW4rMXl6
 github.com/otiai10/mint v1.3.0/go.mod h1:F5AjcsTsWUqX+Na9fpHb52P8pcRX2CI6A3ctIT91xUo=
 github.com/otiai10/mint v1.3.3 h1:7JgpsBaN0uMkyju4tbYHu0mnM55hNKVYLsXmwr15NQI=
 github.com/otiai10/mint v1.3.3/go.mod h1:/yxELlJQ0ufhjUwhshSj+wFjZ78CnZ48/1wtmBH1OTc=
-golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab h1:2QkjZIsXupsJbJIdSjjUOgWK3aEtzyuh2mPt3l/CkeU=
 golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec h1:BkDtF2Ih9xZ7le9ndzTA7KJow28VbQW3odyk/8drmuI=
+golang.org/x/sys v0.0.0-20220928140112-f11e5e49a4ec/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
