@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/alexcoder04/arrowprint v1.0.0
-	github.com/alexcoder04/friendly/v2 v2.1.0
+	github.com/alexcoder04/friendly/v2 v2.1.1
 	github.com/mattn/go-colorable v0.1.13
 )
 
